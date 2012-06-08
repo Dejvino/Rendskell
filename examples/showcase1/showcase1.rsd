@@ -1,0 +1,23 @@
+Rendskell
+#
+#	Showcase scene 1
+#
+
+# Scene data
+Sphere add  0.5  0    0 	1 	0 1 0
+Sphere add -0.5  0    0 	1 	1 0 0
+Sphere add  0   -0.5  0 	1 	0 0 1
+Sphere sub  0    0   -1 	1 	0 0 0
+Sphere sub -2.5    0    0 	2	0 0 0
+
+# Scene cameras
+Camera -2 0 0  0 0 -1  0 1 0   perspective left 	400 400
+Camera 0 0 -2  1 0 0   0 1 0   perspective front	400 400
+Camera 0 2 0   1 0 0   0 0 1   perspective top		400 400
+Camera -1.5 1.5 -1.5    1 0 -1  0.5 1 0.5 perspective free	400 400
+
+# Scene lights
+Light directional 	1 -1 1	0.9 	1 1 1
+
+/Scene
+

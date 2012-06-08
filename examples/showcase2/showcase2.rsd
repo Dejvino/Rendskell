@@ -1,0 +1,26 @@
+Rendskell
+#
+#	Simple scene description
+#
+
+# Scene objects
+Sphere add  0      0      0 	0.8	1 0.2 0.2
+Sphere sub -1      0      0 	0.8	0 0 0
+Sphere sub  1      0      0   	0.8	0 0 0
+Sphere sub  0      1      0 	0.8	0 0 0
+Sphere sub  0     -1      0 	0.8	0 0 0
+Sphere sub  0      0      1 	0.8	0 0 0
+Sphere sub  0      0     -1 	0.8	0 0 0
+
+# Scene cameras
+Camera -1 0 0	0 0 -1 	0 1 0	perspective left	256 256
+Camera 0 0 -1 	1 0 0	0 1 0	perspective front	256 256
+Camera 0 1 0	1 0 0	0 0 1	perspective top		256 256
+Camera -1 1 -1 	1 0 -1	0.5 1 0.5 perspective free	256 256
+
+# Scene lights
+Light directional	1 -1 2	1	1 1 1
+
+# and that's all!
+/Scene
+

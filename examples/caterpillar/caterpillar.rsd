@@ -1,0 +1,35 @@
+Rendskell
+#
+#	Simple shadow test
+#
+
+# Scene data
+# body
+Sphere add -1     0     0		0.5	0.2 1   0.2
+Sphere add -0.8   0.1   0		0.5	0.2 1   0.2
+Sphere add -0.5   0.2   0		0.5	0.2 1   0.2
+Sphere add -0.3   0.3   0		0.5	0.2 1   0.2
+Sphere add  0     0.35  0		0.5	0.2 1   0.2
+Sphere add  0.3   0.3   0		0.5	0.2 1   0.2
+Sphere add  0.5   0.2   0		0.5	0.2 1   0.2
+Sphere add  0.8   0.1   0		0.5	0.2 1   0.2
+Sphere add  1     0     0		0.5	0.2 1   0.2
+# eyes
+Sphere add -1.3   0.3   0.2 		0.1	1   1   1
+Sphere add -1.3   0.3  -0.2 		0.1	1   1   1
+Sphere add -1.35  0.35  0.2		0.05	0   0   0
+Sphere add -1.35  0.35 -0.2		0.05	0   0   0
+# land
+Sphere add  0  -100     0		99.45	0.9 0.8 0.5
+
+# Scene cameras
+Camera -3    0.1  0  	0   0  -1.5 	0.01 1.5   0 	perspective left	512 512
+Camera  0    0.1 -3 	1.5 0   0 	0    1.5   0.01 perspective front	512 512
+Camera  0    3    0 	1.5 0   0 	0    0     1.5  perspective top		512 512
+Camera -1.2  1.2 -2 	1   0  -0.5 	0.5  1.2   0.8  perspective free	512 512
+
+# Scene lights
+Light ambient 	0.2 	1 1 1
+Light directional 	1 -1 1	0.9 	1 1 1
+
+/Scene
