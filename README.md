@@ -12,14 +12,32 @@ camera.
 Examples
 --------
 
-Caterpillar
-![Caterpillar](/examples/caterpillar/exported.jpg)
+<center>
+<img src="https://github.com/Dejvino/Rendskell/raw/master/examples/caterpillar/exported.jpg" alt="example">
+<br />
+<strong>Caterpillar</strong>
+</center>
 
-Shading
-![Shading](/examples/shadetest/exported.jpg)
+<br />
+<br />
 
-Volume subtraction
-![Subtraction 1](/examples/showcase1/exported.jpg)
+<center>
+<img src="https://github.com/Dejvino/Rendskell/raw/master/examples/shadetest/exported.jpg" alt="example">
+<br />
+<strong>Shading</strong>
+</center>
 
-![Subtraction 2](/examples/showcase2/exported.jpg)
+<br />
+<br />
+
+<center>
+<img src="https://github.com/Dejvino/Rendskell/raw/master/examples/showcase1/exported.jpg" alt="example">
+<br />
+<strong>Volume subtraction 1</strong>
+<br />
+<br />
+<img src="https://github.com/Dejvino/Rendskell/raw/master/examples/showcase2/exported.jpg" alt="example">
+<br />
+<strong>Volume subtraction 2</strong>
+</center>
 
